@@ -3,11 +3,11 @@
 int main()
 {
     int a,b,i;
+    float sum=0;
     scanf("%d%d",&a,&b);
-    float s=0.00;
     for(i=a;i<=b;i++)
     {
-        s=s+sqrt(i);
+        sum=sum+sqrt(i);
     }
-    printf("%0.2f",s);
+    printf("%0.2f",sum);
 }
