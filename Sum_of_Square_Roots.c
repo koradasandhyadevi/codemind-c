@@ -3,8 +3,8 @@
 int main()
 {
     int a,b,i;
-    float sum=0;
     scanf("%d%d",&a,&b);
+    float sum=0;
     for(i=a;i<=b;i++)
     {
         sum=sum+sqrt(i);
