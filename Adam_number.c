@@ -1,23 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,rev1=0,rev2=0,rem1,rem2,temp1,temp2;
-  scanf("%d",&a);
-  temp1=a*a;
-    while(a>0)
+    int n,d,rev=0,rev1=0,sq1,sq,w;
+    scanf("%d",&n);
+    sq=n*n;
+    while(n>0)
     {
-        rem1=a%10;
-        rev1=rev1*10+rem1;
-        a=a/10;
+        d=n%10;
+        rev=rev*10+d;
+        n=n/10;
     }
-    b=rev1*rev1;
-    while(b>0)
+    sq1=rev*rev;
+    while(sq1>0)
     {
-        rem2=b%10;
-        rev2=rev2*10+rem2;
-        b=b/10;
+        w=sq1%10;
+        rev1=rev1*10+w;
+        sq1=sq1/10;
     }
-    if(temp1==rev2)
+    if(rev1==sq)
     {
         printf("True");
     }
