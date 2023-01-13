@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int d,n,s=0,p=1,i;
+    int n,d,s=0,p=1;
     scanf("%d",&n);
     while(n>0)
     {
