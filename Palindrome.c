@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,d,rev=0,q;
+    int n,q,rev=0,d;
     scanf("%d",&n);
     q=n;
     while(n>0)
@@ -12,10 +12,10 @@ int main()
     }
     if(rev==q)
     {
-        printf("Palindrome");
+        printf("True");
     }
     else
     {
-        printf("Not Palindrome");
+        printf("False");
     }
 }
