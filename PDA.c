@@ -1,20 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int a,i,s=0;
-    scanf("%d",&a);
-    for(i=1;i<a;i++)
-    {
-        if(a%i==0)
+    int n,i,sum=0;
+    scanf("%d",&n);
+    for(i=1;i<n;i++)
+    { 
+        if(n%i==0)
         {
-            s=s+i;
+        sum=sum+i;
         }
     }
-    if(s==a)
+    if(sum==n)
     {
         printf("PERFECT");
     }
-    else if(s<a)
+    else if(sum<n)
     {
         printf("DEFICIENT");
     }
