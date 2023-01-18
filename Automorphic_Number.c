@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,j,sq,c1=0,c2=0;
+    int n,sq,c=0,k=0,i,j;
     scanf("%d",&n);
     sq=n*n;
     while(n>0)
     {
         i=n%10;
-        c1++;
+        c++;
         n=n/10;
     }
     while(sq>0)
     {
         j=sq%10;
-        c2++;
+        k++;
         sq=sq/10;
-        if(c1==c2)
+        if(c==k)
         {
             break;
         }
