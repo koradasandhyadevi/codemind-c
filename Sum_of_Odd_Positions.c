@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a[n],i,sum=0;
+    int a[n],i,s=0;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -12,8 +12,8 @@ int main()
     {
         if(i%2==1)
         {
-            sum=sum+a[i];
+            s=s+a[i];
         }
     }
-        printf("%d",sum);
+    printf("%d",s);
 }
