@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
+    int n;
     scanf("%d",&n);
-    int a[n],s=0;
+    int a[n],i,s=0;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -15,5 +15,5 @@ int main()
             s=s+a[i];
         }
     }
-   printf("%d",s);
+    printf("%d",s);
 }
