@@ -12,7 +12,7 @@ int main()
     {
         printf("Grade B");
     }
-else if(per>=70)
+    else if(per>=70)
     {
         printf("Grade C");
     }
